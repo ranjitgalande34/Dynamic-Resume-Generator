@@ -1,0 +1,137 @@
+
+
+.resume{
+    width: 400px;
+    height:620px;
+    border: 3px solid black;  
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(196, 82, 196);
+}
+.sect{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.secti{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+
+}
+.github{
+    width: 153px;
+    height: 29.5px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    top: -12px;
+   
+   
+
+}
+.LinkedIn{
+    width: 153px;
+    height: 29.5px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    top: -12px;
+
+}
+.Website{
+    width: 153px;
+    height: 29.5px;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    top: -12px;
+
+}
+.Github{
+    display: flex;
+     height: 42px;
+     
+}
+.linkedIn{
+    display: flex;
+    height: 42px;
+}
+.website{
+    display: flex;
+    height: 42px;
+}
+.summ{
+    width: 300px;
+    height: 100px;
+
+}
+.create{
+    margin: 15px;
+    position: relative;
+    left: 90px;
+}
+
+
+  
+  /* New styles for generated resume container */
+  .generated-resume-container {
+    position: relative;
+    left: 600px;
+    top: -680px;
+    width: 50%;
+    height: 650px;
+    padding: 20px;
+    margin: 10px;
+    overflow-wrap: normal;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+  
+  .generated-resume-container h2 {
+    margin-bottom: 15px;
+    
+  }
+  
+  .generated-resume-container p {
+    margin: 5px 0;
+    margin: 8px 0;
+  line-height: 1.5;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  }
+  
+  .generated-resume-container a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+  }
+  
+  .generated-resume-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .generated-resume-container {
+      width: 100%;
+      left: 0;
+      top: 0;
+      margin-top: 20px;
+    }
+  }
+  

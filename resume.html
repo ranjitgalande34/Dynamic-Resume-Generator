@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume creator</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="resume">
+    <div class="Personal">
+        <p><h2>Personal Information</h2></p>
+        <input class="sect" id="name" placeholder="Type Your Name">
+        <input class="sect" id="role"  type="text" placeholder="Type Your Role">
+        <input class="sect" id="phone"  type="Number" placeholder="Type Your Phone ">
+        <input class="sect" id="email"  type="email" placeholder="Type Your Email">
+        <input  class="sect" id="address"  type="text" placeholder="Type Your Address">
+        <input  class="sect" id="cv"  type="file" placeholder="Type Your resume">
+    </div>
+    <div class="social">
+       <p><h2>Social Media</h2> </p>
+       <div class="Github">
+       <p class="github">Github</p>
+        <input class="secti" id="git" type="text" placeholder="Type Your Github">
+    </div>
+    <div class="linkedIn">
+         <p class="LinkedIn">LinkedIn</p>
+        <input class="secti" id="link" type="text" placeholder="Type Your LinkedIn">
+    </div>
+    <div class="website">
+       <p class="Website">Website</p>
+        <input class="secti" id="web" type="text" placeholder="Type Your Website">
+    </div>
+
+    <div class="Summary">
+        <p class="summary"><h2>Summary</h2></p>
+        <input class="summ" type="text" placeholder="Type your Summary">
+
+    </div>
+    <button class="create">create Resume</button>
+    </div>
+    </div>
+    <div class="generated-resume-container">
+        <div class="generated-resume" style="display: none;">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
